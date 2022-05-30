@@ -43,8 +43,8 @@ $(document).ready(function () {
   const menu = document.querySelector(".menu");
   const navcolor = document.querySelector(".nav-container");
   const logo = document.querySelector(".invlogo");
-  let initialSrc = "https://1goadmin.github.io/wp-content/themes/hristheme/img/d1logorg.svg";
-  let scrollSrc = "https://1goadmin.github.io/wp-content/themes/hristheme/img/d1logow.svg";
+  let initialSrc = "https://1goadmin.github.io/hris/wp-content/themes/hristheme/img/d1logorg.svg";
+  let scrollSrc = "https://1goadmin.github.io/hris/wp-content/themes/hristheme/img/d1logorg.svg";
   
   function toggleMenu() {
 	if (
