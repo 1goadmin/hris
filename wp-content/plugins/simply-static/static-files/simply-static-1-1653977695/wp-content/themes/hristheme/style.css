@@ -922,7 +922,7 @@ footer {
   
     .toggle {
       display: none;
-      color:  #fc0587 !important;
+      color:  #00153C !important;
     }
   
   }
@@ -969,7 +969,7 @@ footer {
     }
   
     nav li a{
-      color:  #fc0587 !important;
+      color:  #00153C !important;
     }
 
     nav li a:active{
@@ -1023,11 +1023,11 @@ footer {
     .fa-bars:before,
     .fa-navicon:before {
       content: "\f0c9";
-      color: #fc0587
+      color: #00153C;
     }
   
     .toggle i {
-      color:  #fc0587 !important;
+      color:  #00153C !important;
     }
   
     .nav-container {
@@ -1159,7 +1159,7 @@ footer {
     }
   
     .logo img {
-      width: 33% !important;
+      width: 65% !important;
     }
   
     .submenu {
@@ -1171,11 +1171,11 @@ footer {
     .fa-bars:before,
     .fa-navicon:before {
       content: "\f0c9";
-      color:  #fc0587 ;
+      color:  #00153C ;
     }
   
     .toggle i {
-    color:  #fc0587;
+    color:  #00153C
     }
   
     .nav-container {
