@@ -691,16 +691,33 @@ footer .ft-col ul li a:hover{
     padding-right: 15%;
     line-height: 1;
   }
+     footer {
+      height: 109vh!important;
+  }
 }
 
 @media only screen and (max-width: 480px) and (min-width: 361px){
 .toc {
   position: absolute;
-  bottom: 12%;
+  bottom: 0%;
   padding-left: 10%;
   padding-right: 20%;
   line-height: 1;
   }
+  .ft {
+    width: 95vw;
+    height: 80vh;
+    margin: 0 12% 5% 1.2%;
+    display: inline-block;
+    padding-right: 10% !important;
+    padding-left: 2% !important;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+footer {
+  height: 109vh!important;
+}
 }
 
 @media only screen and (max-width: 768px) and (min-width: 481px){
@@ -711,6 +728,9 @@ footer .ft-col ul li a:hover{
     justify-content: center;
     line-height: 1;
     }
+    footer {
+      height: 109vh!important;
+  }
   }
 
   @media only screen and (max-width: 990px) and (min-width: 769px){
@@ -747,7 +767,7 @@ footer .ft-col ul li a:hover{
 @media only screen and (max-width: 768px) and (min-width: 100px) {
 
     footer {
-      height: 100vh !important;
+      height: 109vh !important;
       padding-bottom: 1rem;
       line-height: .3;
       margin: 0 !important;
@@ -757,12 +777,13 @@ footer .ft-col ul li a:hover{
     }
 
     .ft {
-      width: 100vw;
-      height: 79vh;
-      margin: 0 12% 5% 1%;
+      width: 95vw;
+      height: 72vh;
+      margin: 0 12% 5% 1.2%;
       display: inline-block;
       padding-right: 10% !important;
       padding-left: 2% !important;
+      padding-top: 2%;
   
     }
     .ft-logo{
@@ -869,7 +890,7 @@ footer .ft-col ul li a:hover{
 	}
   
 	footer {
-	  height: 100vh;
+	  height: 109vh;
 	  padding-bottom: 1rem;
 	  padding-top: 2rem !important;
 	}
@@ -1079,7 +1100,7 @@ footer .ft-col ul li a:hover{
       height: 100vh;
     }
     footer{
-      height: 100vh!important;
+      height: 109vh!important;
     }
     .ft{
       height: 100vh !important;
@@ -1167,7 +1188,7 @@ footer .ft-col ul li a:hover{
       padding: 0.3rem 0 0.3rem 0;
       font-size: 11px;
       margin: 0.4rem 0 0.4rem 0;
-     
+      color:  #fc0587 !important;
     }
   
     .menu li {
