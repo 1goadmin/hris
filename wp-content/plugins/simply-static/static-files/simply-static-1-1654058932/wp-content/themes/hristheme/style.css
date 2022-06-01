@@ -905,9 +905,7 @@ footer {
 	  gap: 22px !important;
   
 	}
-  
-  
-  
+
   }
   @media (min-width: 991px) {
     .nav-container {
@@ -915,16 +913,16 @@ footer {
       padding-bottom: .001rem;
       position: fixed;
     }
-  
+
     .navigation {
       padding: .3rem 0 .3rem 0;
     }
-  
+
     .toggle {
       display: none;
       color:  #00153C !important;
     }
-  
+
   }
 
   @media (min-width: 995px) {
@@ -932,8 +930,6 @@ footer {
       position: absolute;
       margin-top: 1rem;
     }
-  
-  
   }
 
   @media (min-width: 991px) {
