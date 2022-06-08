@@ -18,10 +18,11 @@
 		<div class="ft-col container">
 			<span class="ft-title col-space">What We Do</span>
 			<ul class="contacts col-space">
-				<li><a class="ft-ahr" href="#" aria-label="about">Company</a></li>
-				<li><a class="ft-ahr" href="#" aria-label="s">Ecommerce Automation</a></li>
-				<li><a class="ft-ahr" href="#"  aria-label="s">Services</a></li>
-				<li><a class="ft-ahr" href="#"  aria-label="contact us">Contact Us</a></li>
+				<li><a class="ft-ahr" href="<?=bloginfo('url');?>/#features" aria-label="about">Features</a></li>
+				<li><a class="ft-ahr" href="https://in1gotech.com/partners/" aria-label="s" target="_blank" >Partners</a></li>
+				<li><a class="ft-ahr" href="https://in1gotech.com/patrons/"  aria-label="s" target="_blank" >Clients</a></li>
+				<li><a class="ft-ahr" href="https://in1gotech.com/blogs/"  aria-label="s" target="_blank" >Blogs</a></li>
+				<li><a class="ft-ahr" href="<?=bloginfo('url');?>/demo/"  aria-label="contact us">Contact Us</a></li>
 			</ul>
 
 		</div>
@@ -69,5 +70,35 @@
 </footer>
 </body>
 <?php wp_footer()?>
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "100677485664957");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+	FB.init({
+	  xfbml            : true,
+	  version          : 'v14.0'
+	});
+  };
+
+  (function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+	fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
 </html>
 <!-- footer section -->
