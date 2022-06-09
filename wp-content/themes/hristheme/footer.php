@@ -2,7 +2,7 @@
 
 <!-- footer section -->
 <footer class="container-fluid">
-	<section class="container ft" style="background: linear-gradient(105deg,rgba(246, 93, 104, 0.8) 0%,rgba(248, 172, 25, 0.7) 30% ,rgba(255,0,255, 0.7) 76%); box-shadow: -1px 1px 5px -2px rgba(7, 1, 1, 0.352); border-radius:25px; ">
+	<section class="container ft" style="background: linear-gradient(105deg,rgba(246, 93, 104, 0.9) 0%,rgba(248, 172, 25, 0.9) 30% ,rgba(255,0,255, 0.9) 76%); box-shadow: -1px 1px 5px -2px rgba(7, 1, 1, 0.352); border-radius:25px; ">
 		<div class="ft-col container" style="max-width: 510px">
 			<ul class="contacts">
 				<li class="ft-logo"><a href="#" aria-label="footerlogo"><img src="<?php echo get_template_directory_uri(); ?>/img/d1logow.svg" alt="logo"
