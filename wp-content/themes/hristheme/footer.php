@@ -2,7 +2,7 @@
 
 <!-- footer section -->
 <footer class="container-fluid">
-	<section class="container ft" style="background: linear-gradient(105deg,rgba(246, 93, 104, 0.9) 0%,rgba(248, 172, 25, 0.9) 30% ,rgba(255,0,255, 0.9) 76%); box-shadow: -1px 1px 5px -2px rgba(7, 1, 1, 0.352); border-radius:25px; ">
+	<section class="container ft" style="background: linear-gradient(105deg,rgba(246, 93, 104, 0.9) 0%,rgba(248, 172, 25, 0.9) 30% ,rgba(255,0,255, 0.9		) 76%); box-shadow: -1px 1px 5px -2px rgba(7, 1, 1, 0.352); border-radius:25px; ">
 		<div class="ft-col container" style="max-width: 510px">
 			<ul class="contacts">
 				<li class="ft-logo"><a href="#" aria-label="footerlogo"><img src="<?php echo get_template_directory_uri(); ?>/img/d1logow.svg" alt="logo"
@@ -10,7 +10,7 @@
 				</li>
 				<li >
 					<p class="footer-company-about" >
-			Mobidiser is a complete merchandising tool that eliminates manual merchandising processes enabling accurate reporting, in-store visibility, and faster turnover of merchandising reports resulting in higher store performance and quicker strategical decisions.
+		 			Day 1 is a complete hr process solution that allows companies to centralize all these processes. From employee data, attendance, performance, expenses, health and safety, and HR requests, we’ve got you covered.
 					</p>
 				</li>
 			</ul>
@@ -65,7 +65,7 @@
 			</ul>
 		</div>
 	</section>
-	<h6 class="toc"><span style=" font-weight: 500;">Copyright © 2022 Mobidiser.ph</span> | <a class="ft-ahr" href="https://in1gotech.com/privacy-policy/"target="_blank">Privacy Policy</a>
+	<h6 class="toc"><span style=" font-weight: 500;">Copyright © 2022 day1.ph</span> | <a class="ft-ahr" href="https://in1gotech.com/privacy-policy/"target="_blank">Privacy Policy</a>
 </h6>
 </footer>
 </body>
